@@ -117,10 +117,10 @@
 				/* Below is an example of how code sample should be, just copy-paste and replace required values to add a new item. */
 				items: [
 					{
-						name: "Scythe of Vyse",
-						image: self.cdn_item("sheepstick"),
+						name: "Sogat Cuirass",
+						image: self.cdn_item("item_sogat_cuirass"),
 						items: [
-							"Sample text.",
+							"Initially called Heracle's Armor and later on Greatwyrm Plate, this item has been renamed in memory of Sogat, original creator of X Hero Siege in Warcraft 3.",
 						]
 					},
 				],
