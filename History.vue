@@ -120,7 +120,7 @@
 						name: "Sogat Cuirass",
 						image: self.cdn_item("item_sogat_cuirass"),
 						items: [
-							"Initially called Heracle's Armor and later on Greatwyrm Plate, this item has been renamed in memory of Sogat, original creator of X Hero Siege in Warcraft 3.",
+							"Initially called Heracle's Armor, Greatwyrm Plate and later on Calaminh's Tutela Plate, this item has been renamed in memory of Sogat, original creator of X Hero Siege in Warcraft 3.",
 						]
 					},
 				],
