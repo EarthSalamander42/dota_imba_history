@@ -87,14 +87,17 @@
 									"Dota 2 release Date: TBD",
 								]
 							},
-/*
 							{
-								name: "Rolling Boulder",
-								image: self.cdn_ability("earth_spirit_rolling_boulder"),
+								name: "Ember Spirit Shard Fire Remnant",
+								image: self.cdn_ability("ember_spirit_fire_remnant"),
 								items: [
-									"Target is no longer slowed on stone hit, stunned instead. (using vanilla values)",
+									"Description: Sven launches HIMSELF towards the enemy, damaging and stunning nearby units.",
+									"IMBA release Date: TBD",
+									"Note: This effect was added as part of Aghanim Scepter's upgrade in 7.23.",
+									"Dota 2 release Date: TBD",
 								]
 							},
+/*
 							{
 								name: "Stone Remnant",
 								image: self.cdn_ability("earth_spirit_stone_caller"),
