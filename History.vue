@@ -9,7 +9,6 @@
 
 		<div class="global">
 			<div class="dark_background">
-
 				<div class="general pt80 pb80" style="margin-bottom: -100px;">
 					<div class="container">
 						<h2>General</h2>
