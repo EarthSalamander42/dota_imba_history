@@ -73,6 +73,82 @@
 				heroes: [
 					/* Below is an example of how code sample should be, just copy-paste and replace required values to add a new hero. */
 					{
+						name: "Crystal Maiden",
+						image: self.cdn_hero("crystal_maiden"),
+						abilities: [
+							{
+								name: "Freezing Field",
+								image: self.cdn_ability("sven_storm_bolt"),
+								items: [
+									"IMBA Description: Heart of the Glacier:</font> Also briefly inflicts frostbite to enemies in the area.",
+									"IMBA release Date: TBD",
+									"Vanilla Description: Applies Frostbite to any unit that has been standing in the Freezing Field for over 1.75s.",
+									"Dota 2 release Date: 26/11/2019",
+									"Concept Credits: TBD",
+									"Code Credits: TBD",
+									"Note: This scepter upgrade was added in 7.23.",
+								]
+							},
+						]
+					},
+					{
+						name: "Ember Spirit",
+						image: self.cdn_hero("ember_spirit"),
+						abilities: [
+							{
+								name: "Ember Spirit Shard Fire Remnant",
+								image: self.cdn_ability("ember_spirit_fire_remnant"),
+								items: [
+									"IMBA Description: Shared Flame: Remnants also benefit from Flame Guard, dealing half the normal damage.",
+									"IMBA release Date: 22/03/2018",
+									"Vanilla Description: Fire Remnants deal damage per second in an area around them. If an enemy hero dies near Ember Spirit, a Fire Remnant charge will be replenished.",
+									"Dota 2 release Date: 17/12/2020",
+									"Concept Credits: Firetoad",
+									"Code Credits: Firetoad",
+									"Note: This shard upgrade was added in 7.28.",
+								]
+							},
+						]
+					},
+					{
+						name: "Kunkka",
+						image: self.cdn_hero("kunkka"),
+						abilities: [
+							{
+								name: "Ghostship",
+								image: self.cdn_ability("kunkka_ghostship"),
+								items: [
+									"IMBA Description: ON A BOAT: The ship drags enemies along its path.",
+									"IMBA release Date: TBD",
+									"Vanilla Description: ",
+									"Dota 2 release Date: TBD",
+									"Concept Credits: TBD",
+									"Code Credits: TBD",
+									"Note: This scepter upgrade was added in 6.86, and then removed in 7.23.",
+								]
+							},
+						]
+					},
+					{
+						name: "Omniknight",
+						image: self.cdn_hero("omniknight"),
+						abilities: [
+							{
+								name: "Hammer of Purity (IMBA: Hammer of Virtue)",
+								image: self.cdn_ability("sven_storm_bolt"),
+								items: [
+									"IMBA Description: Imbues the hammer with holy power, converting your next attack to pure damage. The pure energy bounces off the enemy and scatters, healing yourself and all nearby allied heroes for a percentage of the attack damage. Goes into a cooldown after landing a successful attack.",
+									"IMBA release Date: 04/04/2017",
+									"Vanilla Description: Causes Omniknight's next attack to deal bonus pure damage based on his attack damage value, and temporarily reduce the target's outgoing damage.",
+									"Dota 2 release Date: 23/02/2022",
+									"Concept Credits: Firetoad",
+									"Code Credits: Shush",
+									"Note: This ability was added in 7.31.",
+								]
+							},
+						]
+					},
+					{
 						name: "Sven",
 						image: self.cdn_hero("sven"),
 						abilities: [
@@ -80,38 +156,15 @@
 								name: "Storm Hammer",
 								image: self.cdn_ability("sven_storm_bolt"),
 								items: [
-									"Description: Sven launches HIMSELF towards the enemy, damaging and stunning nearby units.",
-									"IMBA release Date: TBD",
-									"Note: This effect was added as part of Aghanim Scepter's upgrade in 7.23.",
-									"Dota 2 release Date: TBD",
+									"IMBA Description: Sven launches HIMSELF towards the enemy, damaging and stunning nearby units.",
+									"IMBA release Date: 04/08/2015",
+									"Vanilla Description: Storm Hammer gains +500 cast range and you travel along it. Upon impact, it hits automatically lands an attack on the primary target.",
+									"Dota 2 release Date: 26/11/2019",
+									"Concept Credits: Firetoad",
+									"Code Credits: Firetoad",
+									"Note: This scepter upgrade was added in 7.23.",
 								]
 							},
-							{
-								name: "Ember Spirit Shard Fire Remnant",
-								image: self.cdn_ability("ember_spirit_fire_remnant"),
-								items: [
-									"Description: Sven launches HIMSELF towards the enemy, damaging and stunning nearby units.",
-									"IMBA release Date: TBD",
-									"Note: This effect was added as part of Aghanim Scepter's upgrade in 7.23.",
-									"Dota 2 release Date: TBD",
-								]
-							},
-/*
-							{
-								name: "Stone Remnant",
-								image: self.cdn_ability("earth_spirit_stone_caller"),
-								items: [
-									"Earth's Mark: Added 10 max stacks limit on a single unit.",
-								]
-							},
-							{
-								name: "Magnetize",
-								image: self.cdn_ability("earth_spirit_magnetize"),
-								items: [
-									"Earth's Wrath: Bonus damage reduced from 50 to 25.",
-								]
-							},
-*/
 						]
 					},
 				],
