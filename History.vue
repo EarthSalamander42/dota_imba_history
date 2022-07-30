@@ -15,11 +15,13 @@
 						<div class="row">
 							<div class="col-md-8">
 								<ul class="notes">
-									<li></li> <!-- Text line sample. Write anything between <li> and </li>. Commented examples below -->
-<!--
-									<li>Additional gold multiplier up to 2x at 200k networth differential (linear scaling)</li>
-									<li>Additional experience multiplier up to 2x at 100 level differential (linear scaling)</li>
--->
+									<li>Turbo mode was made heavily based on Dota IMBA:</li>
+									<li>Gold and experience multiplier from all sources</li>
+									<li>Faster drafting</li>
+									<li>Ancients do not regenerate health</li>
+									<li>Lane creeps are upgraded at a much faster rate than normal</li>
+									<li>Very fast couriers</li>
+									<li>Reduced Roshan respawn timer</li>
 								</ul>
 							</div>
 <!--
@@ -51,6 +53,7 @@
 						<h2 class="mb30">Credits</h2>
 						<ul class="notes">
 							<li>Anyone contributing to this page</li>
+							<!-- <li>todo: give credits to Lemoncake, the guy who initially made Dota 2 Gamepedia because many informations are found out there</li> -->
 						</ul>
 					</div>
 				</div>
@@ -77,15 +80,15 @@
 						image: self.cdn_hero("crystal_maiden"),
 						abilities: [
 							{
-								name: "Freezing Field",
-								image: self.cdn_ability("sven_storm_bolt"),
+								name: "Freezing Field (Scepter)",
+								image: self.cdn_ability("crystal_maiden_freezing_field"),
 								items: [
-									"IMBA Description: Heart of the Glacier:</font> Also briefly inflicts frostbite to enemies in the area.",
-									"IMBA release Date: TBD",
-									"Vanilla Description: Applies Frostbite to any unit that has been standing in the Freezing Field for over 1.75s.",
-									"Dota 2 release Date: 26/11/2019",
-									"Concept Credits: TBD",
-									"Code Credits: TBD",
+									"IMBA Ability description: Heart of the Glacier: Also briefly inflicts frostbite to enemies in the area.",
+									"IMBA release date: TBD",
+									"Vanilla scepter description: Applies Frostbite to any unit that has been standing in the Freezing Field for over 1.75s.",
+									"Dota 2 release date: 26/11/2019",
+									"Concept credits: TBD",
+									"Code credits: TBD",
 									"Note: This scepter upgrade was added in 7.23.",
 								]
 							},
@@ -96,15 +99,15 @@
 						image: self.cdn_hero("ember_spirit"),
 						abilities: [
 							{
-								name: "Ember Spirit Shard Fire Remnant",
+								name: "Fire Remnant (Shard)",
 								image: self.cdn_ability("ember_spirit_fire_remnant"),
 								items: [
-									"IMBA Description: Shared Flame: Remnants also benefit from Flame Guard, dealing half the normal damage.",
-									"IMBA release Date: 22/03/2018",
-									"Vanilla Description: Fire Remnants deal damage per second in an area around them. If an enemy hero dies near Ember Spirit, a Fire Remnant charge will be replenished.",
-									"Dota 2 release Date: 17/12/2020",
-									"Concept Credits: Firetoad",
-									"Code Credits: Firetoad",
+									"IMBA ability description: Shared Flame: Remnants also benefit from Flame Guard, dealing half the normal damage.",
+									"IMBA release date: 22/03/2018",
+									"Vanilla shard description: Fire Remnants deal damage per second in an area around them. If an enemy hero dies near Ember Spirit, a Fire Remnant charge will be replenished.",
+									"Dota 2 release date: 17/12/2020",
+									"Concept credits: Firetoad",
+									"Code credits: Firetoad",
 									"Note: This shard upgrade was added in 7.28.",
 								]
 							},
@@ -115,15 +118,15 @@
 						image: self.cdn_hero("kunkka"),
 						abilities: [
 							{
-								name: "Ghostship",
+								name: "Ghostship (Scepter)",
 								image: self.cdn_ability("kunkka_ghostship"),
 								items: [
-									"IMBA Description: ON A BOAT: The ship drags enemies along its path.",
+									"IMBA ability description: ON A BOAT: The ship drags enemies along its path.",
 									"IMBA release Date: TBD",
-									"Vanilla Description: ",
-									"Dota 2 release Date: TBD",
-									"Concept Credits: TBD",
-									"Code Credits: TBD",
+									"Vanilla shard description: ",
+									"Dota 2 release date: TBD",
+									"Concept credits: TBD",
+									"Code credits: TBD",
 									"Note: This scepter upgrade was added in 6.86, and then removed in 7.23.",
 								]
 							},
@@ -134,15 +137,15 @@
 						image: self.cdn_hero("omniknight"),
 						abilities: [
 							{
-								name: "Hammer of Purity (IMBA: Hammer of Virtue)",
+								name: "Hammer of Purity (IMBA name: Hammer of Virtue)",
 								image: self.cdn_ability("sven_storm_bolt"),
 								items: [
-									"IMBA Description: Imbues the hammer with holy power, converting your next attack to pure damage. The pure energy bounces off the enemy and scatters, healing yourself and all nearby allied heroes for a percentage of the attack damage. Goes into a cooldown after landing a successful attack.",
+									"IMBA ability description: Imbues the hammer with holy power, converting your next attack to pure damage. The pure energy bounces off the enemy and scatters, healing yourself and all nearby allied heroes for a percentage of the attack damage. Goes into a cooldown after landing a successful attack.",
 									"IMBA release Date: 04/04/2017",
-									"Vanilla Description: Causes Omniknight's next attack to deal bonus pure damage based on his attack damage value, and temporarily reduce the target's outgoing damage.",
+									"Vanilla ability description: Causes Omniknight's next attack to deal bonus pure damage based on his attack damage value, and temporarily reduce the target's outgoing damage.",
 									"Dota 2 release Date: 23/02/2022",
-									"Concept Credits: Firetoad",
-									"Code Credits: Shush",
+									"Concept credits: Firetoad",
+									"Code credits: Shush",
 									"Note: This ability was added in 7.31.",
 								]
 							},
@@ -153,15 +156,15 @@
 						image: self.cdn_hero("sven"),
 						abilities: [
 							{
-								name: "Storm Hammer",
+								name: "Storm Hammer (Scepter)",
 								image: self.cdn_ability("sven_storm_bolt"),
 								items: [
-									"IMBA Description: Sven launches HIMSELF towards the enemy, damaging and stunning nearby units.",
+									"IMBA description: Sven launches HIMSELF towards the enemy, damaging and stunning nearby units.",
 									"IMBA release Date: 04/08/2015",
-									"Vanilla Description: Storm Hammer gains +500 cast range and you travel along it. Upon impact, it hits automatically lands an attack on the primary target.",
+									"Vanilla description: Storm Hammer gains +500 cast range and you travel along it. Upon impact, it hits automatically lands an attack on the primary target.",
 									"Dota 2 release Date: 26/11/2019",
-									"Concept Credits: Firetoad",
-									"Code Credits: Firetoad",
+									"Concept credits: Firetoad",
+									"Code credits: Firetoad",
 									"Note: This scepter upgrade was added in 7.23.",
 								]
 							},
